@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NguyenPhuocChungCvReactjs/static/css/main.df83bef7.css",
-    "main.js": "/NguyenPhuocChungCvReactjs/static/js/main.9b868398.js",
+    "main.css": "/NguyenPhuocChungCvReactjs/static/css/main.c36ff89d.css",
+    "main.js": "/NguyenPhuocChungCvReactjs/static/js/main.3e57fea8.js",
     "static/js/453.94a8f5b0.chunk.js": "/NguyenPhuocChungCvReactjs/static/js/453.94a8f5b0.chunk.js",
     "static/media/tam.jpg": "/NguyenPhuocChungCvReactjs/static/media/tam.c330811513f6b622ccc1.jpg",
     "static/media/z5096601174578_jpg": "/NguyenPhuocChungCvReactjs/static/media/z5096601174578_e512432c5cf8ca8d83a24654f566545d.b036e522cc691b7ff75a.jpg",
@@ -15,12 +15,12 @@
     "static/media/chung.jpg": "/NguyenPhuocChungCvReactjs/static/media/chung.f04cae989322b4af55ce.jpg",
     "static/media/minh.jpg": "/NguyenPhuocChungCvReactjs/static/media/minh.7dfb9a7bdbd50946354d.jpg",
     "index.html": "/NguyenPhuocChungCvReactjs/index.html",
-    "main.df83bef7.css.map": "/NguyenPhuocChungCvReactjs/static/css/main.df83bef7.css.map",
-    "main.9b868398.js.map": "/NguyenPhuocChungCvReactjs/static/js/main.9b868398.js.map",
+    "main.c36ff89d.css.map": "/NguyenPhuocChungCvReactjs/static/css/main.c36ff89d.css.map",
+    "main.3e57fea8.js.map": "/NguyenPhuocChungCvReactjs/static/js/main.3e57fea8.js.map",
     "453.94a8f5b0.chunk.js.map": "/NguyenPhuocChungCvReactjs/static/js/453.94a8f5b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df83bef7.css",
-    "static/js/main.9b868398.js"
+    "static/css/main.c36ff89d.css",
+    "static/js/main.3e57fea8.js"
   ]
 }
