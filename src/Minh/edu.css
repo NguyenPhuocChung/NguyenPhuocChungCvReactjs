@@ -1,0 +1,173 @@
+.container {
+    padding-top: 50px;
+  }
+  
+  .newEducationCard,
+  .newSkillsCard,
+  .newProjectsCard,
+  .newExperienceCard,
+  .newPersonalInfoCard {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .newEducationCardBody,
+  .newSkillsCardBody,
+  .newProjectsCardBody,
+  .newExperienceCardBody,
+  .newPersonalInfoCardBody {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .newEducationCard:hover .newEducationCardBody,
+  .newSkillsCard:hover .newSkillsCardBody,
+  .newProjectsCard:hover .newProjectsCardBody,
+  .newExperienceCard:hover .newExperienceCardBody,
+  .newPersonalInfoCard:hover .newPersonalInfoCardBody {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newEducationCardTitle,
+  .newSkillsCardTitle,
+  .newProjectsCardTitle,
+  .newExperienceCardTitle,
+  .newPersonalInfoCardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .newEducationItem,
+  .newSkillsItem,
+  .newProjectsItem,
+  .newExperienceItem,
+  .newPersonalInfoItem {
+    margin-bottom: 20px;
+    color: #666666;
+    overflow: hidden;
+  }
+  
+  .newEducationItem strong,
+  .newSkillsItem strong,
+  .newProjectsItem strong,
+  .newExperienceItem strong,
+  .newPersonalInfoItem strong {
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .newAvatar {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .newAvatar:hover {
+    transform: scale(1.1);
+  }
+  
+  .newEducationCard:hover,
+  .newSkillsCard:hover,
+  .newProjectsCard:hover,
+  .newExperienceCard:hover,
+  .newPersonalInfoCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .newDeveloper-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .newDeveloper-text.visible {
+    opacity: 1;
+  }
+  
+  #newCo {
+    background-image: url(./z5096601174578_e512432c5cf8ca8d83a24654f566545d.jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: cover;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: inherit;
+  }
+  
+  .newEducationCardBody,
+  .newskillsCardBody {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .newEducationCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .hobbiesCard {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.hobbiesCardBody {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.hobbiesCard:hover .hobbiesCardBody {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hobbiesCardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hobbiesDescription {
+    margin-bottom: 20px;
+    color: #666666;
+}

@@ -1,0 +1,145 @@
+.container {
+  padding-top: 50px;
+}
+
+.personalInfoCard,
+.experienceCard,
+.educationCard,
+.skillsCard,
+.projectsCard {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.personalInfoCardBody,
+.experienceCardBody,
+.educationCardBody,
+.skillsCardBody,
+.projectsCardBody {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.personalInfoCard:hover .personalInfoCardBody,
+.experienceCard:hover .experienceCardBody,
+.educationCard:hover .educationCardBody,
+.skillsCard:hover .skillsCardBody,
+.projectsCard:hover .projectsCardBody {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.personalInfoCardTitle,
+.experienceCardTitle,
+.educationCardTitle,
+.skillsCardTitle,
+.projectsCardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.personalInfoItem,
+.experienceItem,
+.educationItem,
+.skillsItem,
+.projectsItem {
+  margin-bottom: 20px;
+  color: #666666;
+  overflow: hidden;
+}
+
+.personalInfoItem strong,
+.experienceItem strong,
+.educationItem strong,
+.skillsItem strong,
+.projectsItem strong {
+  font-weight: bold;
+  color: #000000;
+  display: inline-block;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+.personalInfoCard:hover,
+.experienceCard:hover,
+.educationCard:hover,
+.skillsCard:hover,
+.projectsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.developer-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.developer-text.visible {
+  opacity: 1;
+}
+
+.educationCardTitle,
+.skillsCardTitle,
+.projectsCardTitle,
+.experienceCardTitle {
+  text-align: center;
+}
+
+#co {
+  background-image: url(./z5096601174578_e512432c5cf8ca8d83a24654f566545d.jpg);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: cover;
+
+}
+
+a {
+  text-decoration: none;
+  /* Loại bỏ dấu gạch dưới */
+  color: inherit;
+  /* Kế thừa màu văn bản từ phần tử cha */
+}
+
+a:hover {
+  color: inherit;
+  /* Khi di chuột qua, giữ màu văn bản như màu hiện tại */
+}
+
+.minh {
+  display: inline;
+  margin-top: 65px;
+}
